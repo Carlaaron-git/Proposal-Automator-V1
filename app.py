@@ -3485,11 +3485,6 @@ elif st.session_state.stage == "done":
 st.markdown("""
 <style>
 .app-footer {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 999;
   margin-top: 2.5rem;
   padding: 1rem 1.5rem;
   border-top: 1px solid var(--border);
@@ -3500,9 +3495,6 @@ st.markdown("""
   flex-wrap: wrap;
   gap: .55rem;
   font-family: 'Nunito Sans', 'Inter', sans-serif;
-}
-.main .block-container {
-  padding-bottom: 5rem;
 }
 .app-footer .f-item {
   font-weight: 700;
